@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 8000;
 
 const mongoose = require("mongoose");
-mongoose.connect("mongodb://mongodb:27016/mydb").then(
+mongoose.connect("mongodb://mongodb:27017/mydb").then(
   () => {
     console.log("connect DB ok");
   },
