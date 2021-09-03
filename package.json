@@ -1,0 +1,14 @@
+{
+  "name": "demo_minio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "minio": "^7.0.19",
+    "mongoose": "^6.0.4"
+  }
+}
